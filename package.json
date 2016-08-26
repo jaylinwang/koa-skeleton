@@ -1,0 +1,63 @@
+{
+  "name": "koa-skeleton",
+  "version": "0.1.0",
+  "description": "koa-skeleton",
+  "main": "app.js",
+  "scripts": {
+    "test": "ava",
+    "wechat-dev": "gulp dev:wechat --use-strict"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaylinwang/koa-skeleton.git"
+  },
+  "keywords": [
+    "koa-skeleton"
+  ],
+  "author": "JaylinWang",
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.16.0",
+    "bluebird": "^3.4.1",
+    "bunyan": "^1.8.1",
+    "ioredis": "^2.3.0",
+    "koa": "^2.0.0-alpha.5",
+    "koa-convert": "^1.2.0",
+    "koa-csrf": "^2.5.0",
+    "koa-generic-session": "^1.11.3",
+    "koa-redis": "^2.1.2",
+    "koa-router": "^7.0.1",
+    "koa-views": "^5.0.2",
+    "lodash": "^4.15.0",
+    "nunjucks": "^2.4.2",
+    "request": "^2.74.0",
+    "requestretry": "^1.10.0",
+    "zepto": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "css-loader": "^0.24.0",
+    "del": "^2.2.2",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-base64": "^0.1.3",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-sequence": "^0.4.5",
+    "gulp-util": "^3.0.7",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-merge": "^0.14.1"
+  }
+}
