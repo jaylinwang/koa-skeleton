@@ -23,7 +23,7 @@ const webpackProdCfg = require('./configs/build/webpack.production');
 
 // 压缩合并css, css中既有自己写的.scss, 也有引入第三方库的.css
 gulp.task('build:sass', () => {
-    gulp.src(['public/src/scss/*.scss'])
+    gulp.src(['public/src/styles/*.scss'])
         .pipe(plumber())
         .pipe(sass({
             outputStyle: 'compressed',
@@ -60,8 +60,8 @@ gulp.task('build:js-dev', () => {
 
 // 监听src下文件变化
 gulp.task('watch', () => {
-    gulp.watch(['public/src/**/*.scss'], ['build:sass']);
-    gulp.watch('public/src/**/*.js', ['build:js-dev']);
+    gulp.watch(['public/src/styles/**/*.scss'], ['build:sass']);
+    gulp.watch('public/src/styles/**/*.js', ['build:js-dev']);
 });
 
 // nodemon setting
